@@ -1,20 +1,20 @@
-# Angular Workshop
+# Angular Einführung und Workshop
 
-## Plunker project
+## Plunker Projekt
 
 * [Plunker Angular 1.3 Template](http://plnkr.co/edit/tpl:rfqcl9AHEoJZEEJxyNn2)
 
 
-### Generate dummy data
+### Beispiel Daten 
 
-[Generator](http://www.json-generator.com/)
+[json-generator](http://www.json-generator.com/)
 
 	[
 	  '{{repeat(100)}}',
 	  {
 	    guid: '{{guid()}}',
 	    isActive: '{{bool()}}',
-	    picture: 'http://placekitten.com/200/300',
+	    picture: 'http://lorempixel.com/80/80/cats/',
 	    age: '{{integer(20, 40)}}',
 	    name: '{{firstName()}} {{surname()}}',
 	    gender: '{{gender()}}',
@@ -40,3 +40,14 @@
 	    ]
 	  }
 	]
+
+### Fertiges Beispiel-Projekt
+
+* [Plunker Beispiel: Benutzerliste mit Filter](http://plnkr.co/edit/XU786GR3ZaIV2BFeLXRu?p=preview)
+
+## Links
+
+* [API Reference](https://docs.angularjs.org/api)
+* [Seed Projekt inlk. Tests](https://github.com/angular/angular-seed)
+* [Angular Pagination](tilmanpotthof.github.io/angular-st-pagination)
+* 
